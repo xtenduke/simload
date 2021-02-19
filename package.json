@@ -1,0 +1,19 @@
+{
+  "name": "simload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Index.js",
+    "start:dev": "yarn build && node --inspect dist/Index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2",
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.11"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
